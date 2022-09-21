@@ -6,11 +6,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.sdet40.genericUtility.JavaUtility;
 //chANGE
+//some change
 public class AddDoctorPage {
 	public AddDoctorPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-	//harish branching
+	
 	@FindBy(xpath = "//span[.=' Doctors ']")
 	private WebElement docFea;
 	@FindBy(xpath = "//span[text()=' Add Doctor']")
