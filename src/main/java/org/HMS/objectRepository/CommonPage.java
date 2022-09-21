@@ -11,6 +11,7 @@ public class CommonPage {
 		PageFactory.initElements(driver, this);	
 	}
 	//changes done by person1
+	
 	@FindBy (xpath = "//span[@class='username']")
 	private WebElement dropDownForLogout;
 	@FindBy (xpath = "//a[contains(text(),'Log Out')]")

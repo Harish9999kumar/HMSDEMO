@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.sdet40.genericUtility.JavaUtility;
 
 public class AddDoctorPage {
-//change in addDoctorpage2
+	//change in addDoctorpage2
 	//Another change 
 	public AddDoctorPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
