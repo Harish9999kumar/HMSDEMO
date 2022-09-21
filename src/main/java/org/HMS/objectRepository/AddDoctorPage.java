@@ -5,13 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.sdet40.genericUtility.JavaUtility;
-
+//chANGE
+//some change
 public class AddDoctorPage {
-	//change in addDoctorpage2
-	//Another change 
 	public AddDoctorPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
+	
 	@FindBy(xpath = "//span[.=' Doctors ']")
 	private WebElement docFea;
 	@FindBy(xpath = "//span[text()=' Add Doctor']")

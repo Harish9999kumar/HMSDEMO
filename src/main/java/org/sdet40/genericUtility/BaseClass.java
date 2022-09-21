@@ -18,7 +18,6 @@ import org.testng.annotations.BeforeClass;
 
 
 public class BaseClass {
-	//changes done by engg1 in baseclass
 	protected WebDriver driver;
 	protected String userName;
 	protected String password;
@@ -42,8 +41,6 @@ public class BaseClass {
 	protected ManageDocPage mngDocPge;
 	public static WebDriver sdriver;
 	public static JavaUtility sjavaUtil;
-//changes done by engg2
-	//changes done by Harish
 	@BeforeClass
 	public void configBC() throws IOException {
 		javaUtil = new JavaUtility();
