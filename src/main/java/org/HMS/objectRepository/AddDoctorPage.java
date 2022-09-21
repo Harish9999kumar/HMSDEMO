@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.sdet40.genericUtility.JavaUtility;
-
+//chANGE
 public class AddDoctorPage {
 	public AddDoctorPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
