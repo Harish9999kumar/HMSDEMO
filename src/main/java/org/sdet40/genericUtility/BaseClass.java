@@ -41,7 +41,7 @@ public class BaseClass {
 	protected ManageDocPage mngDocPge;
 	public static WebDriver sdriver;
 	public static JavaUtility sjavaUtil;
-
+//changes done by engg2
 	@BeforeClass
 	public void configBC() throws IOException {
 		javaUtil = new JavaUtility();
