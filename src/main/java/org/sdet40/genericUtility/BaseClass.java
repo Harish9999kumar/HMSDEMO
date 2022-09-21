@@ -18,6 +18,7 @@ import org.testng.annotations.BeforeClass;
 
 
 public class BaseClass {
+	//changes done by engg1 in baseclass
 	protected WebDriver driver;
 	protected String userName;
 	protected String password;
